@@ -1,0 +1,36 @@
+{
+  "manifest_version": 3,
+  "name": "FET Portal Modernizer",
+  "version": "0.0.1",
+  "description": "يحول بوابة كلية الهندسة التكنولوجية إلى تصميم حديث وعصري",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "tabs"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://app.huson.edu.jo/reg_new/*"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_end"
+    }
+  ],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "modern-ui.js",
+        "icons/*"
+      ],
+      "matches": [
+        "http://app.huson.edu.jo/*"
+      ]
+    }
+  ]
+}
