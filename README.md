@@ -49,5 +49,5 @@ Since this extension is not yet published on the Chrome Web Store, you can insta
 ├── popup.js             # Extension popup logic (Theme syncing)
 └── styles.css           # Global modern stylesheet
 ```
-## Extention Creation
-This Extention created by mosakrm0, I only change the links in the manifest file to make it work on Al-Huson College Student Portal
+## Extension Creation
+This Extension created by mosakrm0, I only change the links in the manifest file to make it work on Al-Huson College Student Portal
